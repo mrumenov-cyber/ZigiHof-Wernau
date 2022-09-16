@@ -1,10 +1,10 @@
-import './App.css';
+import './App.scss';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import { createTheme } from '@material-ui/core/styles';
 
 import React from 'react';
+import NavBar from './components/nav-bar/nav-bar';
 import Routing from './routes';
-import MainView from './components/main-view/main-view';
 
 const theme = createTheme({
 	palette: {
@@ -23,11 +23,12 @@ const theme = createTheme({
 	}
 });
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <MuiThemeProvider theme={theme}>
-        <MainView/>
+	  <NavBar></NavBar>
+	  	<Routing />
       </MuiThemeProvider>
     </React.Fragment>
   );

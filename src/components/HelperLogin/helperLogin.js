@@ -1,8 +1,8 @@
 import React from 'react'
-import './about-us.scss';
+import './helperLogin.scss';
 
 
-export default class AboutUs extends React.Component{
+export default class HelperLogin extends React.Component{
     constructor(){
         super();
     }
@@ -10,7 +10,7 @@ export default class AboutUs extends React.Component{
     render() {
         return(
             <React.Fragment>
-                <div>hab dich gefunden</div>
+                <div>Hier loggen sich die Helfer ein.</div>
             </React.Fragment>
         );
     }

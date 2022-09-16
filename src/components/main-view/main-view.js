@@ -9,7 +9,6 @@ export default class MainView extends React.Component{
     render() {
         return(
             <React.Fragment>
-                <NavBar></NavBar>
                 <div> 
                     <p> This is main component </p>
                 </div>

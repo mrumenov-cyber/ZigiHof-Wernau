@@ -1,10 +1,14 @@
 .navigation-bar{
     background: darkred;
-    height: 50px
+    height: 100px;
 }
 
 .navigation-links{
     color: white;
-    justify-self: left;
+    float: right;
+.logo{    
+        float: left ;
+    }
 }
+
 
